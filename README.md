@@ -1,4 +1,4 @@
-# ![hk.ui](./public/hk-ui.svg){ width=50px height=50px } HKUI
+# ![hk.ui](./public/hk-ui-sm.svg) HKUI
 
 ---
 
