@@ -27,8 +27,9 @@ function App() {
                   </a>
 
                   <a
-                    href="https://www.youtube.com/channel/UC4aSXpTw09MS6mH55job4cQ"
+                    href="https://github.com/ho-ssain/hk-ui"
                     className="h-10 p-2 text-slate-950 hover:text-[#3161a0]"
+                    target="_blank"
                   >
                     <SiGithub />
                   </a>
