@@ -1,6 +1,7 @@
 import { SiYoutube, SiGithub, SiTwitter, SiDiscord } from "react-icons/si";
 import useTheme from "./useTheme.ts";
 import { HiMiniMoon, HiSun } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,12 +9,12 @@ const Navbar = () => {
       <div className="mx-auto w-full max-w-3xl space-y-20">
         <div className="flex justify-between">
           <div className="flex flex-1 items-center justify-start">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="inline-flex h-10 items-center justify-center text-2xl font-bold text-slate-900 dark:text-white"
             >
               HK<span className="italic text-blue-800">ui</span>
-            </a>
+            </Link>
           </div>
 
           <div className="flex flex-1 items-center justify-end">
